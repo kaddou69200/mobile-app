@@ -152,8 +152,8 @@ android {
             keyAlias 'androiddebugkey'
             keyPassword 'android'
         }
-        release{
-            storeFile('release.keystore')
+        release {
+            storeFile file('release.keystore')
             storePassword 'nassim'
             keyAlias 'release_app'
             keyPassword 'nassim'
